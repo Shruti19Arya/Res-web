@@ -12,6 +12,7 @@ body {
 
 .nav {
   box-sizing: content-box;
+  
   width: 100%;
   line-height: 9vh;
   height: 9vh;
@@ -31,7 +32,6 @@ ul li {
 }
 
 li a {
-  text-decoration: none;
   text-decoration: none;
   color: rgb(221, 52, 52);
   font-size: 22px;
@@ -57,9 +57,8 @@ body {
   margin-bottom: 70px;
   display: flex;
   flex-wrap: wrap;
-  flex-wrap: wrap;
   padding-top: 2px;
-  padding-bottom: 15px;
+  padding-bottom: 40px;
   padding-left: 6px;
   border: 0.5px;
 }
@@ -89,3 +88,51 @@ body {
     max-width: 100%;
   }
 }
+
+/* footer */
+.fa {
+  box-sizing: initial;
+  
+  margin-right: 3px;
+  
+  padding: 10px;
+  font-size: 15px;
+  width: 14px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  border: solid 1.8px black;
+  justify-items: left;
+}
+
+.fa-facebook {
+  background: black;
+  color: white;
+}
+
+.fa-twitter {
+  background: black;
+  color: white;
+}
+
+.fa-instagram {
+  background: black;
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.3;
+}
+
+.foot {
+  background-color: #f0f0f0;
+  height: 40px;
+ width: 100%;
+  padding-top: 10px;
+  padding-bottom: 45px;
+  padding-left: 35px;
+  padding-right: 0px;
+
+}
+
+
