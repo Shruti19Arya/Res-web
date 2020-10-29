@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="menu.css">
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="nav">
+
+      <ul>
+        <li><a href="#home" target="_blank">Home</a> </li>
+        <li><a href="#About" target="_blank">About us</a></li>
+        <li><a href="file:///C:/Users/user/Desktop/pro/nav/cont.html" target="_blank">Contact us</a></li>
+        <li><a href="file:///C:/Users/user/Desktop/pro/nav/p/gallery.html" target="_blank">Gallery</a></li>
+        <li class="active"><a href="file:///C:/Users/user/Desktop/pro/nav/p/menu.html">MENU</a></li>
+        <li><a href="" target="_blank">RESERVATION</a></li>
+      </ul>
+
+    </div>
+  </div>
+
+  <div class="menu">
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'Main Course')" id="defaultOpen">Main Course</button>
+      <button class="tablinks" onclick="openCity(event, 'Desert')">Desert</button>
+      <button class="tablinks" onclick="openCity(event, 'Drinks')">Drinks</button>
+
+    </div>
+
+    <div id="Main Course" class="tabcontent">
+
+      <div class="row">
+        <div class="gallery">
+          <img src="lasagna.jpg" alt="lasagna">
+          <div class="desc">lasagna </div>
+        </div>
+
+        <div class="gallery">
+          <img src="momos.jpeg" alt="momos">
+          <div class="desc">momos</div>
+        </div>
+
+        <div class="gallery">
+          <img src="spring rolls.jpg" alt="spring rolls">
+          <div class="desc">spring rolls</div>
+        </div>
+
+        <div class="gallery">
+          <img src="scramble.jpg" alt="scrambled eggs">
+          <div class="desc">scrambled eggs</div>
+        </div>
+
+
+      </div>
+
+      <div class="row">
+
+        <div class="gallery">
+          <img src="manchurian.jpeg" alt="manchurian">
+          <div class="desc">manchurian</div>
+        </div>
+
+        <div class="gallery">
+          <img src="burger.jpeg" alt="burger">
+          <div class="desc">burger</div>
+        </div>
+
+        <div class="gallery">
+          <img src="pasta.jpeg" alt="pasta">
+          <div class="desc">pasta</div>
+        </div>
+
+        <div class="gallery">
+          <img src="pizza.jpeg" alt="pizza">
+          <div class="desc">pizza</div>
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+
+
+    <div id="Desert" class="tabcontent">
+
+
+      <div class="row">
+        
+        <div class="gallery">
+          <img src="brownie.jpeg" alt="brownie">
+          <div class="desc">Brownie</div>
+        </div>
+
+        <div class="gallery">
+          <img src="cheesecake.jpg" alt="cheesecake">
+          <div class="desc">cheesecake</div>
+        </div>
+
+        <div class="gallery">
+          <img src="pancakes.jpeg" alt="pancakes">
+          <div class="desc">pancakes</div>
+        </div>
+
+        <div class="gallery">
+          <img src="ca2.jpg" alt="Chocolate cake">
+          <div class="desc">Chocolate cake</div>
+        </div>
+
+      </div>
+
+
+      <div class="row">
+
+
+        <div class="gallery">
+          <img src="cookies.jpeg" alt="cookies">
+          <div class="desc">cookies</div>
+        </div>
+
+        <div class="gallery">
+          <img src="doughnuts.jpeg" alt="doughnuts">
+          <div class="desc">doughnuts</div>
+        </div>
+
+        <div class="gallery">
+          <img src="icecream.jpeg" alt="icecream">
+          <div class="desc">icecream</div>
+        </div>
+
+        <div class="gallery">
+          <img src="cupcake.jpg" alt="cupcake">
+          <div class="desc">cupcake</div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+    <div id="Drinks" class="tabcontent">
+
+      <div class="row">
+
+        <div class="gallery">
+          <img src="coffee.jpeg" alt="coffee">
+          <div class="desc">coffee</div>
+        </div>
+
+        <div class="gallery">
+          <img src="black coffee.jpeg" alt="black coffee">
+          <div class="desc">black coffee</div>
+        </div>
+
+
+        <div class="gallery">
+          <img src="shake.jpg" alt="Chocolate milkshake">
+          <div class="desc">Chocolate shake</div>
+        </div>
+
+        <div class="gallery">
+          <img src="smoothie.jpg" alt="smoothie">
+          <div class="desc">smoothie</div>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="gallery">
+          <img src="ice tea.jpg" alt="ice tea">
+          <div class="desc">ice tea</div>
+        </div>
+
+        <div class="gallery">
+          <img src="orange.jpg" alt="orange juice">
+          <div class="desc">orange juice</div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </div>
+
+
+  <footer>
+
+    <div class="foot">
+      <a href="https://www.facebook.com/login/" target="_blank" class="fa fa-facebook"></a>
+      <a href="https://twitter.com/login?lang=en" target="_blank" class="fa fa-twitter"></a>
+      <a href="https://www.instagram.com/?hl=en" target="_blank" class="fa fa-instagram"></a>
+    </div>
+
+  </footer>
+
+
+
+  <script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    document.getElementById("defaultOpen").click();
+  </script>
+
+</body>
+</html>
