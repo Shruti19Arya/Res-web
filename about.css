@@ -1,213 +1,183 @@
-*{
-        margin: 0px;
-        padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-body{
-        overflow-x: hidden;
-
+body {
+  overflow-x: hidden;
 }
 
 .nav {
-        width: 100%;
-        line-height: 9vh;
-        height: 9vh;
-        background-color: #f5b78dd2;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      
-      }
-      
-      ul {
-        float: right;
-        margin-right: 90px;
-      }
-      
-      ul li {
-        list-style-type: none;
-        display: inline-block;
-        transition: 0.9s all;
-      }
-      
-      li a {
-        text-decoration: none;
-        text-decoration: none;
-        color: rgb(221, 52, 52);
-        font-size: 22px;
-        font-weight: bold;
-        padding: 19px;
-        margin: 0px;
-        text-transform: uppercase;
-      }
-      
-      ul li a:hover, .active a {
-        color: brown;
-        background-color: rgba(222, 184, 135, 0.795);
-      }
-
-
-
-.container1{
-
-        background-color: goldenrod;
-        height: 700px;
-        width: 100%;
-        
+  width: 100%;
+  line-height: 9vh;
+  height: 9vh;
+  background-color: #f5b78dd2;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.pic1{
-
-        height: 510px;
-        width: 760px;
-        background-image: url("inn.jpg");
-        background-position: center;
-        background-size: cover;
-        position: absolute;
-        top: 150px;
-        left: 650px;
-
-
+ul {
+  float: right;
+  margin-right: 90px;
 }
 
-
-.content1{
-        
-        height: 300px;
-        width: 620px;
-        background-color: whitesmoke;
-        position: absolute;
-        top: 230px;
-        left: 90px;
-        text-align: center;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-       
-
-        padding-top: 25px;
-        padding-bottom: 25px;
-
-
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  transition: 0.9s all;
 }
 
-.heading1{
-        font-weight: bold;
-        font-size: 28px;
-        line-height: 1.9;
-
+li a {
+  text-decoration: none;
+  text-decoration: none;
+  color: rgb(221, 52, 52);
+  font-size: 22px;
+  font-weight: bold;
+  padding: 19px;
+  margin: 0px;
+  text-transform: uppercase;
 }
 
-.para1{
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 1.5;
-        padding-left: 35px;
-        padding-right: 35px;
-        padding-top:30px ;
-
-
+ul li a:hover, .active a {
+  color: brown;
+  background-color: rgba(222, 184, 135, 0.795);
 }
 
-
-.container2{
-
-        background-color: grey;
-        height: 700px;
-        width: 100%;
-        margin-top: 0px;
-        position: relative;
-
-        
+.container1 {
+  background-color: rgba(218, 165, 32, 0.986);
+  height: 700px;
+  width: 100%;
 }
 
-.pic2{
-
-        height: 510px;
-        width: 760px;
-        background-image: url("inn.jpg");
-        background-position: center;
-        background-size: cover;
-       
-
-
-        position: relative;
-        top: 80px;
-        left: 120px;
-
-}
-.content2{
-        
-        height: 350px;
-        width: 600px;
-        background-color: white;
-        text-align: center;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-       
-        position: absolute;
-        bottom: 165px;
-        left: 820px;
-        
-
-        padding-top: 25px;
-        padding-bottom: 25px;
-
-
+.pic1 {
+  height: 500px;
+  width: 750px;
+  background-image: url("inn1.jpg");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 160px;
+  left: 650px;
 }
 
-.heading2{
-        font-weight: bold;
-        font-size: 28px;
-        line-height: 1.9;
-
+.content1 {
+  height: 280px;
+  width: 620px;
+  background-color: whitesmoke;
+  position: absolute;
+  top: 250px;
+  left: 90px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 25px;
+  padding-bottom: 10px;
 }
 
-.para2{
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 1.5;
-        padding-left: 35px;
-        padding-right: 35px;
-        padding-top:30px ;
+.heading1 {
+  font-size: 40px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Noto Serif', serif;
+}
 
+.para1 {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.6;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 20px;
+}
 
+.container2 {
+  background-color: rgba(128, 128, 128, 0.897);
+  height: 710px;
+  width: 100%;
+  margin-top: 0px;
+  position: relative;
+}
+
+.pic2 {
+  height: 510px;
+  width: 750px;
+  background-image: url("food.jpeg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  top: 100px;
+  left: 120px;
+}
+
+.content2 {
+  height: 320px;
+  width: 600px;
+  background-color: whitesmoke;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  bottom: 160px;
+  left: 820px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.heading2 {
+  line-height: 1.5;
+  font-size: 40px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Noto Serif', serif;
+}
+
+.para2 {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.6;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
 }
 
 .foot {
-        background-color: #f0f0f0;
-        height: 40px;
-        width: 98%;
-        padding-top: 10px;
-        padding-bottom: 5px;
-        padding-left: 35px;
-        padding-right: 0px;
-        border-top:0.1px solid rgba(20, 20, 20, 0.212);
-      
-      }
-      
-      .fa {
-        margin-right: 3px;
-        padding: 10px;
-        font-size: 15px;
-        width: 14px;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 50%;
-        border: solid 1.8px black;
-        justify-items: left;
-      }
-      
-      .fa-facebook {
-        background: black;
-        color: white;
-      }
-      
-      .fa-twitter {
-        background: black;
-        color: white;
-      }
-      
-      .fa-instagram {
-        background: black;
-        color: white;
-      }
-      
-      .fa:hover {
-        opacity: 0.3;
-      }
+  background-color: #f0f0f0;
+  height: 40px;
+  width: 98%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 35px;
+  padding-right: 0px;
+  border-top: 0.1px solid rgba(20, 20, 20, 0.212);
+}
+
+.fa {
+  margin-right: 3px;
+  padding: 10px;
+  font-size: 15px;
+  width: 14px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  border: solid 1.8px black;
+  justify-items: left;
+}
+
+.fa-facebook {
+  background: black;
+  color: white;
+}
+
+.fa-twitter {
+  background: black;
+  color: white;
+}
+
+.fa-instagram {
+  background: black;
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.3;
+}
