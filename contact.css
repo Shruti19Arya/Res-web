@@ -30,6 +30,22 @@ h4 {
   font-weight: normal;
 }
 
+.name{
+        
+  font-size: 22px;
+  margin: 0px;
+  padding-left: 25px;
+  position: absolute;
+  top: 5px;
+  color: #a05344;
+  font-family: 'Ruthie', cursive;
+font-size: 50px;
+font-weight: normal;
+letter-spacing: 2px;
+}
+
+
+
 .border {
   padding: 10px;
   margin: 8px;
@@ -112,6 +128,7 @@ h4 {
   height: 9vh;
   background-color: #f5b78dd2;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
 ul {
@@ -142,6 +159,19 @@ ul li a:hover, .active a {
 }
 
 /* footer */
+
+.foot {
+  background-color: #f0f0f0;
+  height: 40px;
+  width: 98%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 35px;
+  padding-right: 0px;
+  border-top:0.1px solid rgba(20, 20, 20, 0.212);
+
+}
+
 .fa {
   margin-right: 3px;
   padding: 10px;
@@ -171,14 +201,4 @@ ul li a:hover, .active a {
 
 .fa:hover {
   opacity: 0.3;
-}
-
-.foot {
-  background-color: #f0f0f0;
-  height: 40px;
-  width: 98%;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  padding-left: 35px;
-  padding-right: 0px;
 }

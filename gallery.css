@@ -10,6 +10,20 @@ body {
   background-color: #f4ebc1ce;
 }
 
+.name{
+        
+  font-size: 22px;
+  margin: 0px;
+  padding-left: 25px;
+  position: absolute;
+  top: 5px;
+  color: #a05344;
+  font-family: 'Ruthie', cursive;
+font-size: 50px;
+font-weight: normal;
+letter-spacing: 2px;
+}
+
 .nav {
   box-sizing: content-box;
   
@@ -18,6 +32,7 @@ body {
   height: 9vh;
   background-color: #f5b78dd2;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
 ul {
@@ -90,6 +105,20 @@ body {
 }
 
 /* footer */
+
+
+.foot {
+  background-color: #f0f0f0;
+  height: 40px;
+ width: 100%;
+  padding-top: 10px;
+  padding-bottom: 45px;
+  padding-left: 35px;
+  padding-right: 0px;
+  border-top:0.1px solid rgba(20, 20, 20, 0.212);
+
+}
+
 .fa {
   box-sizing: initial;
   
@@ -124,15 +153,6 @@ body {
   opacity: 0.3;
 }
 
-.foot {
-  background-color: #f0f0f0;
-  height: 40px;
- width: 100%;
-  padding-top: 10px;
-  padding-bottom: 45px;
-  padding-left: 35px;
-  padding-right: 0px;
-
-}
 
 
+        
