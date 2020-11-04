@@ -1,0 +1,198 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.title {
+  color: #a05344;
+  font-family: 'Ruthie', cursive;
+}
+
+.name {
+  font-size: 22px;
+  margin: 0px;
+  padding-left: 25px;
+  position: absolute;
+  top: 5px;
+  color: #a05344;
+  font-family: 'Ruthie', cursive;
+  font-size: 50px;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.nav {
+  width: 100%;
+  line-height: 9vh;
+  height: 9vh;
+  background-color: #f5b78dd2;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ul {
+  float: right;
+  margin-right: 90px;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  transition: 0.9s all;
+}
+
+li a {
+  text-decoration: none;
+  color: rgb(221, 52, 52);
+  font-size: 22px;
+  font-weight: bold;
+  padding: 19px;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+ul li a:hover, .active a {
+  color: brown;
+  background-color: rgba(222, 184, 135, 0.795);
+}
+
+.container2 {
+  background-color: grey;
+  height: 700px;
+  width: 100%;
+  margin-top: 0px;
+  position: relative;
+  padding: 100px;
+}
+
+.heading {
+  font-size: 40px;
+  line-height: 1.9;
+  margin: 8px;
+}
+
+.border {
+  padding: 10px;
+  margin: 8px;
+  width: 360px;
+  height: 30px;
+  font-size: 15px;
+  border: rgba(0, 0, 0, 0.452) 0.2px solid;
+  outline: none;
+}
+
+#contact {
+  margin-bottom: 0px;
+  margin-right: 0px;
+  padding-top: 40px;
+  padding-left: 75px;
+  padding-bottom: 38px;
+  width: 685px;
+  height: 900px;
+  border: none;
+  background-color: #cbaf875d;
+  border: rgba(73, 59, 40, 0.555) solid 0.1px;
+  border-bottom: none;
+}
+
+.msg {
+  padding: 11px;
+  width: 358px;
+  height: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  border: rgba(0, 0, 0, 0.452) 0.2px solid;
+  margin: 8px;
+  outline: none;
+}
+
+.button {
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  width: 200px;
+  height: 50px;
+  border: rgba(0, 0, 0, 0.452) 0.5px solid;
+  cursor: pointer;
+  color: black;
+  outline: none;
+}
+
+.button:hover {
+  font-size: 24px;
+  color: brown;
+  background-color: #c5c2c2;
+  border: black solid 0.4px;
+}
+
+.select {
+  padding: 8px;
+  margin: 8px;
+  width: 381px;
+  height: 51px;
+  font-size: 16px;
+  color: grey;
+  border: rgba(0, 0, 0, 0.452) 0.2px solid;
+  outline: none;
+}
+
+.content {
+  width: 370px;
+  margin: 12px;
+  font-size: 16px;
+}
+
+.checkbox {
+  margin: 9px;
+}
+
+.condition {
+  font-size: 16px;
+}
+
+.foot {
+  background-color: #f0f0f0;
+  height: 40px;
+  width: 98%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 35px;
+  padding-right: 0px;
+  border-top: 0.1px solid rgba(20, 20, 20, 0.212);
+}
+
+.fa {
+  margin-right: 3px;
+  padding: 10px;
+  font-size: 15px;
+  width: 14px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  border: solid 1.8px black;
+  justify-items: left;
+}
+
+.fa-facebook {
+  background: black;
+  color: white;
+}
+
+.fa-twitter {
+  background: black;
+  color: white;
+}
+
+.fa-instagram {
+  background: black;
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.3;
+}

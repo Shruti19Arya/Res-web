@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Reservation</title>
+
+  <link rel="icon" href="logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ruthie&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="reservation.css">
+
+
+
+  <script type="text/javascript">
+    function validateForm() {
+
+      if (document.myForm.Name.value == "") {
+        alert("Name cannot be left blank");
+        document.myForm.Name.focus();
+        return false;
+      }
+
+      if (document.myForm.Email.value == "") {
+        alert("Email cannot be left blank");
+        document.myForm.Email.focus();
+        return false;
+      }
+      if (document.myForm.Phone_Number.value == "") {
+        alert("Phone Number cannot be left blank");
+        document.myForm.Phone_Number.focus();
+        return false;
+      }
+
+      if (document.myForm.People.value == "") {
+
+        alert("Number of People cannot be left blank");
+        document.myForm.People.focus();
+        return false;
+
+      }
+
+      if (document.myForm.Datetime.value == "") {
+
+        alert("Date and Time cannot be left blank");
+        document.myForm.Datetime.focus();
+        return false;
+      }
+
+      if (document.myForm.Table.value == "Select Table") {
+        alert("Table cannot be left blank");
+        document.myForm.Table.focus();
+        return false;
+      }
+
+
+      if (document.myForm.Msg.value == "") {
+
+        alert("Please fill the Message, it cannot be left blank");
+        document.myForm.Msg.focus();
+        return false;
+      }
+
+      if (document.myForm.checkbox.checked == false) {
+        alert("Please agree to the terms and conditions first");
+        document.myForm.checkbox.focus();
+        return false;
+      }
+
+    }
+  </script>
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="name">
+      <strong>E</strong>lite</div>
+    <div class="nav">
+
+      <ul>
+        <li><a href="#home" target="_blank">Home</a> </li>
+        <li><a href="file:///C:/Users/user/Desktop/pro/nav/p/about.html" target="_blank">About us</a></li>
+        <li><a href="file:///C:/Users/user/Desktop/pro/nav/p/contact.html">Contact us</a></li>
+        <li><a href="file:///C:/Users/user/Desktop/pro/nav/p/gallery.html" target="_blank">Gallery</a></li>
+        <li><a href="file:///C:/Users/user/Desktop/pro/nav/p/menu.html" target="_blank">MENU</a></li>
+        <li class="active"><a href="" target="_blank">RESERVATION</a></li>
+      </ul>
+
+    </div>
+  </div>
+
+
+
+  <div id="contact">
+    <center></center>
+    <h1 class="heading">RESERVATION</h1>
+
+    <div class="container">
+
+      <form name="myForm" onsubmit="return(validateForm())" target="">
+        <p><input class="border" type="text" placeholder="Name" name="Name"></p>
+        <p><input class="border" type="email" placeholder="Email" name="Email"></p>
+        <p><input class="border" type="text" placeholder="Phone Number " name="Phone_Number"></p>
+        <p><input class="border" type="number" placeholder="How many people" name="People"></p>
+        <p><input class="border" type="datetime-local" placeholder="Datetime" name="Datetime"></p>
+        <p><select class="select" name="Table">
+            <option>Select Table</option>
+            <option value="Open Table">Open Table</option>
+            <option value="Standard Table">Standard Table</option>
+            <option value="Private Dining">Private Dining</option>
+          </select></p>
+        <p><textarea class="msg border" placeholder="Message \ Special requirements" name="Msg" rows="40" cols="20"></textarea></p>
+        <p class="content">
+          <strong>
+            Important dining information - </strong>
+          We have a 15 minute grace period. Please
+          call us if you are running late than 15
+          minutes after your reservation time.</p>
+
+
+        <p class="condition"><input type="checkbox" name="checkbox" class="checkbox">I
+          understand the terms and condition</p>
+
+
+
+        <br>
+        <p><button class="button" type="submit">SUBMIT </button></p>
+      </form>
+
+    </div>
+  </div>
+
+  <div>
+
+  </div>
+
+  <footer>
+
+    <div class="foot">
+      <a href="https://www.facebook.com/login/" target="_blank" class="fa fa-facebook"></a>
+      <a href="https://twitter.com/login?lang=en" target="_blank" class="fa fa-twitter"></a>
+      <a href="https://www.instagram.com/?hl=en" target="_blank" class="fa fa-instagram"></a>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
