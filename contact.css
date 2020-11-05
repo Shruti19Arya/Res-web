@@ -30,8 +30,7 @@ h4 {
   font-weight: normal;
 }
 
-.name{
-        
+.name {
   font-size: 22px;
   margin: 0px;
   padding-left: 25px;
@@ -39,12 +38,14 @@ h4 {
   top: 5px;
   color: #a05344;
   font-family: 'Ruthie', cursive;
-font-size: 50px;
-font-weight: normal;
-letter-spacing: 2px;
+  font-size: 50px;
+  font-weight: normal;
+  letter-spacing: 2px;
 }
 
-
+.heading {
+  margin-left: 12px;
+}
 
 .border {
   padding: 10px;
@@ -54,6 +55,7 @@ letter-spacing: 2px;
   font-size: 15px;
   border-radius: 4px;
   border: rgba(0, 0, 0, 0.452) 0.2px solid;
+  outline: none;
 }
 
 .header {
@@ -99,6 +101,7 @@ letter-spacing: 2px;
   border: rgba(0, 0, 0, 0.452) 0.2px solid;
   border-radius: 4px;
   margin: 8px;
+  outline: none;
 }
 
 .button {
@@ -128,7 +131,6 @@ letter-spacing: 2px;
   height: 9vh;
   background-color: #f5b78dd2;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
 }
 
 ul {
@@ -159,7 +161,6 @@ ul li a:hover, .active a {
 }
 
 /* footer */
-
 .foot {
   background-color: #f0f0f0;
   height: 40px;
@@ -168,8 +169,7 @@ ul li a:hover, .active a {
   padding-bottom: 5px;
   padding-left: 35px;
   padding-right: 0px;
-  border-top:0.1px solid rgba(20, 20, 20, 0.212);
-
+  border-top: 0.1px solid rgba(20, 20, 20, 0.212);
 }
 
 .fa {
