@@ -5,6 +5,8 @@
 
 body {
   overflow-x: hidden;
+  background-image: url("p1.jpg");
+  background-size: cover;
 }
 
 .title {
@@ -59,43 +61,40 @@ ul li a:hover, .active a {
   background-color: rgba(222, 184, 135, 0.795);
 }
 
-.container2 {
-  background-color: grey;
-  height: 700px;
-  width: 100%;
-  margin-top: 0px;
-  position: relative;
-  padding: 100px;
-}
-
 .heading {
-  font-size: 40px;
+  font-size: 42px;
   line-height: 1.9;
   margin: 8px;
+  text-align: center;
 }
 
 .border {
   padding: 10px;
   margin: 8px;
   width: 360px;
-  height: 30px;
+  height: 25px;
   font-size: 15px;
-  border: rgba(0, 0, 0, 0.452) 0.2px solid;
+  border: none;
   outline: none;
+  color: grey;
 }
 
 #contact {
-  margin-bottom: 0px;
-  margin-right: 0px;
-  padding-top: 40px;
-  padding-left: 75px;
-  padding-bottom: 38px;
-  width: 685px;
-  height: 900px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding-top: 10px;
+  width: 500px;
+  height: 790px;
+  background-color: #d8cbbbfb;
+}
+
+.container {
   border: none;
-  background-color: #cbaf875d;
-  border: rgba(73, 59, 40, 0.555) solid 0.1px;
-  border-bottom: none;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 0px;
 }
 
 .msg {
@@ -104,41 +103,41 @@ ul li a:hover, .active a {
   height: 70px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
-  border: rgba(0, 0, 0, 0.452) 0.2px solid;
   margin: 8px;
   outline: none;
+  border: none;
 }
 
 .button {
   margin: 10px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 24px;
+  letter-spacing: 1px;
   font-weight: bold;
-  letter-spacing: 3px;
-  width: 200px;
+  width: 180px;
   height: 50px;
-  border: rgba(0, 0, 0, 0.452) 0.5px solid;
+  border: none;
   cursor: pointer;
-  color: black;
   outline: none;
+  color: brown;
+  background-color: #cb9b42f3;
 }
 
 .button:hover {
-  font-size: 24px;
-  color: brown;
-  background-color: #c5c2c2;
-  border: black solid 0.4px;
+  font-size: 23px;
+  color: rgb(131, 118, 92);
+  background-color: #e4b765fa;
 }
 
 .select {
   padding: 8px;
   margin: 8px;
   width: 381px;
-  height: 51px;
+  height: 45px;
   font-size: 16px;
-  color: grey;
-  border: rgba(0, 0, 0, 0.452) 0.2px solid;
+  border: none;
   outline: none;
+  color: grey;
 }
 
 .content {
