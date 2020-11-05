@@ -56,6 +56,8 @@ h4 {
   border-radius: 4px;
   border: rgba(0, 0, 0, 0.452) 0.2px solid;
   outline: none;
+  color: grey;
+
 }
 
 .header {
@@ -74,7 +76,7 @@ h4 {
   padding-bottom: 38px;
   width: 685px;
   height: 670px;
-  border: none;
+  border-bottom: none;
   background-color: #cbaf87fd;
   border: rgba(73, 59, 40, 0.555) solid 0.1px;
 }
