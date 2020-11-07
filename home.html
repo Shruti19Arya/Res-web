@@ -63,20 +63,18 @@
 
 
 
-
-
   <div class="slideshow-container">
 
     <div class="mySlides fade">
-      <img src="k.jpg" style="width:100%">
+      <img src="int2.jpeg" style="width:100%">
     </div>
 
     <div class="mySlides fade">
-      <img src="b.jpg" style="width:100%">
+      <img src="p1.jpg" style="width:100%">
     </div>
 
     <div class="mySlides fade">
-      <img src="q.jpg" style="width:100%">
+      <img src="t1.jpg" style="width:100%">
     </div>
 
   </div>
@@ -86,6 +84,7 @@
     <span class="dot"></span>
     <span class="dot"></span>
   </div>
+
 
 
 
@@ -119,29 +118,6 @@
       slides[slideIndex - 1].style.display = "block";
       dots[slideIndex - 1].className += " active";
       setTimeout(showSlides, 3000); // Change image every 2 seconds
-    }
-
-
-    var slide_Index = 1;
-    showDivs(slide_Index);
-
-    function plusDivs(n) {
-      showDivs(slide_Index += n);
-    }
-
-    function showDivs(n) {
-      var i;
-      var x = document.getElementsByClassName("slides");
-      if (n > x.length) {
-        slide_Index = 1
-      }
-      if (n < 1) {
-        slide_Index = x.length
-      }
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-      }
-      x[slide_Index - 1].style.display = "block";
     }
   </script>
 </body>
